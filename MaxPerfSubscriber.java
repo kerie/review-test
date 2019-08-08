@@ -31,6 +31,7 @@ public class MaxPerfSubscriber implements CoreSubscriber<Payload> {
     latch.countDown();
   }
 
+  // add comment
   @Override
   public void onComplete() {
     latch.countDown();
